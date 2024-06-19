@@ -227,6 +227,15 @@ footer a {
     text-decoration: none;
 }
 
+.section {
+    margin-bottom: 20px;
+}
+
+.intro-text {
+    
+    font-size: 1em;
+    margin-bottom: 20px;
+}
 
 @media (max-width: 768px) {
     .bg-img {
