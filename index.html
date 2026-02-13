@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Explore the Red Planet — learn about Mars colonization, fascinating facts, and humanity's future among the stars.">
+    <meta property="og:title" content="Mars - Humanity's Next Frontier">
+    <meta property="og:description" content="Discover the possibilities of human life on Mars.">
+    <meta property="og:type" content="website">
+    <title>Mars - Humanity's Next Frontier</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Nunito:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Stars -->
+    <div class="stars-layer"></div>
+
+    <!-- Background -->
+    <span class="bg-img"></span>
+
+    <!-- Mars -->
+    <img src="images/mars.png" alt="Mars" class="mars">
+
+    <!-- Nav -->
+    <header id="site-header">
+        <div class="header-inner">
+            <a href="#" class="logo"><i class="fa-solid fa-satellite"></i> Mars</a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="#hero" class="nav-link active">Home</a></li>
+                    <li><a href="#facts" class="nav-link">Facts</a></li>
+                    <li><a href="#timeline" class="nav-link">Timeline</a></li>
+                    <li><a href="#why-mars" class="nav-link">Why Mars?</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <p class="hero-tagline reveal">THE RED PLANET AWAITS</p>
+                <h1 class="hero-title reveal">Humans Living on Mars:<br> Is it Possible?</h1>
+                <p class="hero-description reveal">Exploring the possibility of human habitation on Mars has
+                    long been a topic of fascination and study. With advancements in technology and a deeper
+                    understanding of the Martian environment, this dream is slowly moving closer to reality.</p>
+                <div class="hero-buttons reveal">
+                    <a href="#facts" class="btn btn-primary">
+                        <span class="btn-icon"><i class="fas fa-rocket"></i></span>
+                        Explore Mars
+                    </a>
+                    <a href="#timeline" class="btn btn-outline">
+                        <span class="btn-icon"><i class="fas fa-play"></i></span>
+                        Our Journey
+                    </a>
+                </div>
+            </div>
+            <div class="scroll-indicator reveal">
+                <span>Scroll to explore</span>
+                <div class="scroll-arrow">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facts -->
+    <section id="facts" class="facts-section">
+        <div class="container">
+            <h2 class="section-title reveal">Mars at a Glance</h2>
+            <p class="section-subtitle reveal">Key statistics about the Red Planet</p>
+            <div class="stats-grid">
+                <div class="stat-card reveal">
+                    <div class="stat-icon"><i class="fas fa-route"></i></div>
+                    <div class="stat-number" data-target="225">0</div>
+                    <div class="stat-unit">million km</div>
+                    <div class="stat-label">Average Distance from Earth</div>
+                </div>
+                <div class="stat-card reveal">
+                    <div class="stat-icon"><i class="fas fa-temperature-low"></i></div>
+                    <div class="stat-number" data-target="-63" data-prefix="">0</div>
+                    <div class="stat-unit">°C</div>
+                    <div class="stat-label">Average Surface Temperature</div>
+                </div>
+                <div class="stat-card reveal">
+                    <div class="stat-icon"><i class="fas fa-weight-hanging"></i></div>
+                    <div class="stat-number" data-target="38" data-suffix="%">0</div>
+                    <div class="stat-unit"></div>
+                    <div class="stat-label">of Earth's Gravity</div>
+                </div>
+                <div class="stat-card reveal">
+                    <div class="stat-icon"><i class="fas fa-clock"></i></div>
+                    <div class="stat-number" data-target="24.6">0</div>
+                    <div class="stat-unit">hours</div>
+                    <div class="stat-label">Length of a Martian Day</div>
+                </div>
+            </div>
+            <div class="fact-cards">
+                <div class="fact-card reveal">
+                    <div class="fact-number">01</div>
+                    <h3>China Begins Mars Exploration</h3>
+                    <p>China's Tianwen - 1 mission successfully landed the Zhurong rover on Mars, marking a major
+                        milestone in their space program and expanding international Mars exploration capabilities.</p>
+                </div>
+                <div class="fact-card reveal">
+                    <div class="fact-number">02</div>
+                    <h3>7 Fascinating Facts About Mars</h3>
+                    <p>Mars is home to the tallest volcano in the solar system, Olympus Mons and the largest canyon
+                        system, Valles Marineris. These features make Mars an exciting focus for scientific discovery.
+                    </p>
+                </div>
+                <div class="fact-card reveal">
+                    <div class="fact-number">03</div>
+                    <h3>Water on Mars</h3>
+                    <p>Evidence of subsurface liquid water has been discovered beneath the Martian south polar ice cap,
+                        raising the tantalizing possibility that microbial life could exist on Mars today.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline -->
+    <section id="timeline" class="timeline-section">
+        <div class="container">
+            <h2 class="section-title reveal">Mars Exploration Timeline</h2>
+            <p class="section-subtitle reveal">Humanity's journey to the Red Planet</p>
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-date">1965</div>
+                    <div class="timeline-content">
+                        <h3>Mariner 4 - First Flyby</h3>
+                        <p>NASA's Mariner 4 completed the first successful flyby of Mars, returning 22 close-up photos
+                            and revealing a cratered, barren landscape.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-date">1997</div>
+                    <div class="timeline-content">
+                        <h3>Pathfinder & Sojourner</h3>
+                        <p></p>The Mars Pathfinder mission deployed the Sojourner rover - the first wheeled vehicle to
+                            explore another planet, analyzing rocks and soil.
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-date">2012</div>
+                    <div class="timeline-content">
+                        <h3>Curiosity Rover Lands</h3>
+                        <p>NASA's Curiosity rover landed in Gale Crater, beginning a mission to study Mars' climate,
+                            geology and potential habitability that continues today.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-date">2021</div>
+                    <div class="timeline-content">
+                        <h3>Perseverance & Ingenuity</h3>
+                        <p>Perseverance landed on Mars with the Ingenuity helicopter, achieving the first powered flight
+                            on another planet and collecting samples for return to Earth.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-date">2030s</div>
+                    <div class="timeline-content">
+                        <h3>First Crewed Mission</h3>
+                        <p>Multiple space agencies and private companies are planning crewed missions to Mars, aiming to
+                            establish the first human presence on the Red Planet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Mars -->
+    <section id="why-mars" class="why-section">
+        <div class="container">
+            <h2 class="section-title reveal">Why Mars?</h2>
+            <p class="section-subtitle reveal">The case for becoming a multi-planetary species</p>
+            <div class="features-grid">
+                <div class="feature-card reveal">
+                    <div class="feature-icon"><i class="fas fa-gem"></i></div>
+                    <h3>Abundant Resources</h3>
+                    <p>Mars possesses water ice, minerals, and a CO₂ atmosphere that can be converted into oxygen and
+                        fuel, providing raw materials for a self-sustaining colony.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon"><i class="fas fa-map-marked-alt"></i></div>
+                    <h3>Strategic Location</h3>
+                    <p>As our closest habitable neighbor, Mars is reachable within 7 months. Its position makes it an
+                        ideal stepping stone for deeper solar system exploration.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon"><i class="fas fa-wind"></i></div>
+                    <h3>Terraforming Potential</h3>
+                    <p>Mars' thin atmosphere and presence of greenhouse gases suggest that with advanced technology, we
+                        could gradually transform its environment to be more Earth-like.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Survival Insurance</h3>
+                    <p>Establishing a colony on Mars ensures humanity's survival against existential threats - from
+                        asteroid impacts to climate catastrophes on Earth.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon"><i class="fas fa-flask"></i></div>
+                    <h3>Scientific Discovery</h3>
+                    <p>Mars holds answers to fundamental questions about the origins of life, planetary evolution, and
+                        whether we are alone in the universe.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon"><i class="fas fa-users"></i></div>
+                    <h3>Uniting Humanity</h3>
+                    <p>A Mars mission represents a shared dream that transcends borders - a collaborative achievement
+                        that could inspire generations and unite the world.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <a href="#hero" class="footer-logo">Mars</a>
+                <p class="footer-tagline">Exploring humanity's future on the Red Planet</p>
+                <nav class="footer-nav">
+                    <a href="#hero">Home</a>
+                    <a href="#facts">Facts</a>
+                    <a href="#timeline">Timeline</a>
+                    <a href="#why-mars">Why Mars?</a>
+                </nav>
+            </div>
+            <div class="footer-divider"></div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Darko Dukovski. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
