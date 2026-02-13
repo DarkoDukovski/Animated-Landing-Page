@@ -2,9 +2,9 @@
 
 An interactive landing page about Mars, built with HTML, CSS, and JavaScript.
 
-## 🚀 Live Demo
+## Live Demo
 
-https://darkodukovski.github.io/animated-page/
+https://darkodukovski.github.io/Animated-Landing-Page/
 
 ## Features
 
